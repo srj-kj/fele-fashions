@@ -82,6 +82,7 @@ export const getProduct = async (apiKey, catId) => {
           __v: 0,
           "products._id": 0,
           "products.__v": 0,
+          "products.categoryId":0
         },
       },
     ]);
